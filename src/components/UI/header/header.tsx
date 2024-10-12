@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeOutlined, UserOutlined, ProjectOutlined, BookOutlined, GithubOutlined } from "@ant-design/icons";
+import { HomeOutlined, ProjectOutlined, BookOutlined, GithubOutlined } from "@ant-design/icons";
 import * as st from "./header-style";
 
 const iconStyle = { fontSize: "2rem" };
@@ -15,15 +15,6 @@ const header: React.FC = () => (
             <>
               <HomeOutlined style={iconStyle} />
               <st.NavText>Главная</st.NavText>
-            </>
-          ),
-        },
-        {
-          href: "#",
-          title: (
-            <>
-              <UserOutlined style={iconStyle} />
-              <st.NavText>О себе</st.NavText>
             </>
           ),
         },

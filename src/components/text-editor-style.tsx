@@ -77,12 +77,12 @@ export const NumPage = styled.p`
 export const Section = styled.section`
   display: flex;
   flex-direction: column;
-  margin-top: 10rem;
+  margin-top: 5rem;
   @media (max-width: 767px) and (min-width: 320px) {
     margin-top: 5rem;
   }
   @media (max-width: 1023px) and (min-width: 768px) {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 `;
 
